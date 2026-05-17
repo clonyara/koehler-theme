@@ -3,103 +3,368 @@
   "dark": true,
   "author": "",
   "editorScheme": "/themes/Koehler.xml",
+  "colors": {
+    "koehlerBg": "#101010",
+    "koehlerInputBg": "#1A1A1C",
+    "koehlerHover": "#2A2A2C",
+    "koehlerTrack": "#0E0E10",
+    "koehlerFg": "#D8D8D8"
+  },
   "ui": {
     "ScrollBar": {
-      "background": "#202020",
+      "background": "koehlerBg",
       "track": {
-        "background": "#202020",
-        "hoverBackground": "#202020"
+        "background": "koehlerTrack",
+        "hoverBackground": "koehlerTrack"
       },
       "thumb": {
-        "background": "#4A4A4C",
-        "hoverBackground": "#5A5A5C"
+        "background": "koehlerInputBg",
+        "hoverBackground": "koehlerHover"
       },
       "Mac": {
         "thumb": {
-          "background": "#4A4A4C",
-          "hoverBackground": "#5A5A5C"
+          "background": "koehlerInputBg",
+          "hoverBackground": "koehlerHover"
         },
         "Transparent": {
           "thumb": {
-            "background": "#4A4A4C",
-            "hoverBackground": "#5A5A5C"
+            "background": "koehlerInputBg",
+            "hoverBackground": "koehlerHover"
           },
           "track": {
-            "background": "#202020",
-            "hoverBackground": "#202020"
+            "background": "koehlerBg",
+            "hoverBackground": "koehlerBg"
           }
         }
       },
       "Transparent": {
         "thumb": {
-          "background": "#4A4A4C",
-          "hoverBackground": "#5A5A5C"
+          "background": "koehlerInputBg",
+          "hoverBackground": "koehlerHover"
         },
         "track": {
-          "background": "#202020",
-          "hoverBackground": "#202020"
-        }
-      }
-    },
-    "EditorScrollBar": {
-      "background": "#202020",
-      "track": {
-        "background": "#202020",
-        "hoverBackground": "#202020"
-      },
-      "thumb": {
-        "background": "#4A4A4C",
-        "hoverBackground": "#5A5A5C"
-      },
-      "Mac": {
-        "thumb": {
-          "background": "#4A4A4C",
-          "hoverBackground": "#5A5A5C"
-        },
-        "Transparent": {
-          "thumb": {
-            "background": "#4A4A4C",
-            "hoverBackground": "#5A5A5C"
-          },
-          "track": {
-            "background": "#202020",
-            "hoverBackground": "#202020"
-          }
-        }
-      },
-      "Transparent": {
-        "thumb": {
-          "background": "#4A4A4C",
-          "hoverBackground": "#5A5A5C"
-        },
-        "track": {
-          "background": "#202020",
-          "hoverBackground": "#202020"
+          "background": "koehlerBg",
+          "hoverBackground": "koehlerBg"
         }
       }
     },
     "Tree": {
-      "background": "#202020"
+      "background": "koehlerBg",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg",
+      "selectionInactiveBackground": "koehlerHover",
+      "selectionInactiveForeground": "koehlerFg",
+      "hoverBackground": "koehlerHover",
+      "hoverInactiveBackground": "koehlerHover"
+    },
+    "List": {
+      "background": "koehlerBg",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg",
+      "selectionInactiveBackground": "koehlerHover",
+      "selectionInactiveForeground": "koehlerFg",
+      "hoverBackground": "koehlerHover",
+      "hoverInactiveBackground": "koehlerHover"
+    },
+    "Table": {
+      "background": "koehlerBg",
+      "stripeColor": "koehlerBg",
+      "gridColor": "koehlerHover",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg",
+      "selectionInactiveBackground": "koehlerHover",
+      "selectionInactiveForeground": "koehlerFg",
+      "hoverBackground": "koehlerHover",
+      "hoverInactiveBackground": "koehlerHover"
+    },
+    "TableHeader": {
+      "background": "koehlerBg"
     },
     "Panel": {
-      "background": "#202020"
+      "background": "koehlerBg"
+    },
+    "TextField": {
+      "background": "koehlerInputBg"
+    },
+    "PasswordField": {
+      "background": "koehlerInputBg"
+    },
+    "FormattedTextField": {
+      "background": "koehlerInputBg"
+    },
+    "TextArea": {
+      "background": "koehlerInputBg"
+    },
+    "EditorPane": {
+      "background": "koehlerInputBg"
+    },
+    "Editor": {
+      "background": "koehlerBg",
+      "shortcutForeground": "koehlerFg"
+    },
+    "EditorTabs": {
+      "background": "koehlerBg",
+      "underlinedTabBackground": "koehlerBg",
+      "hoverBackground": "koehlerHover",
+      "inactiveColoredFileBackground": "koehlerBg",
+      "borderColor": "koehlerBg"
+    },
+    "ComboBox": {
+      "background": "koehlerInputBg",
+      "nonEditableBackground": "koehlerBg"
+    },
+    "Spinner": {
+      "background": "koehlerInputBg"
+    },
+    "TitledBorder": {
+      "titleColor": "koehlerFg"
+    },
+    "RootPane": {
+      "background": "koehlerBg"
+    },
+    "TabbedPane": {
+      "background": "koehlerBg"
+    },
+    "Viewport": {
+      "background": "koehlerBg"
+    },
+    "ScrollPane": {
+      "background": "koehlerBg"
+    },
+    "SplitPane": {
+      "background": "koehlerBg"
+    },
+    "Splitter": {
+      "background": "koehlerBg"
+    },
+    "Separator": {
+      "background": "koehlerBg"
+    },
+    "Borders": {
+      "color": "koehlerHover",
+      "ContrastBorderColor": "koehlerHover"
     },
     "OptionPane": {
-      "background": "#202020"
+      "background": "koehlerBg"
     },
     "PopupMenu": {
-      "background": "#202020"
+      "background": "koehlerBg",
+      "translucentBackground": "koehlerBg"
+    },
+    "MenuItem": {
+      "background": "koehlerBg",
+      "disabledBackground": "koehlerBg",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg"
+    },
+    "Menu": {
+      "background": "koehlerBg",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg"
+    },
+    "MenuBar": {
+      "background": "koehlerBg"
+    },
+    "Popup": {
+      "background": "koehlerBg",
+      "Header": {
+        "activeBackground": "koehlerBg",
+        "inactiveBackground": "koehlerBg"
+      },
+      "Toolbar": {
+        "background": "koehlerBg"
+      },
+      "Advertiser": {
+        "background": "koehlerBg"
+      },
+      "borderColor": "koehlerBg",
+      "inactiveBorderColor": "koehlerBg"
+    },
+    "CompletionPopup": {
+      "background": "koehlerBg"
+    },
+    "BalloonPopup": {
+      "background": "koehlerBg"
+    },
+    "Notification": {
+      "background": "koehlerBg",
+      "borderColor": "koehlerHover",
+      "MoreButton": {
+        "background": "koehlerBg",
+        "foreground": "koehlerFg",
+        "innerBorderColor": "koehlerHover"
+      },
+      "ToolWindow": {
+        "informativeBackground": "koehlerBg",
+        "informativeForeground": "koehlerFg",
+        "informativeBorderColor": "koehlerHover",
+        "warningBackground": "koehlerBg",
+        "warningForeground": "koehlerFg",
+        "warningBorderColor": "koehlerHover",
+        "errorBackground": "koehlerBg",
+        "errorForeground": "koehlerFg",
+        "errorBorderColor": "koehlerHover"
+      }
+    },
+    "ToolTip": {
+      "background": "koehlerBg"
+    },
+    "HelpTooltip": {
+      "background": "koehlerBg"
+    },
+    "SidePanel": {
+      "background": "koehlerBg"
+    },
+    "Settings": {
+      "OptionsList": {
+        "background": "koehlerBg"
+      }
+    },
+    "MasterDetails": {
+      "background": "koehlerBg"
+    },
+    "DialogWrapper": {
+      "southPanelBackground": "koehlerBg",
+      "southPanelDivider": "koehlerHover"
+    },
+    "Window": {
+      "background": "koehlerBg"
+    },
+    "Button": {
+      "background": "koehlerBg"
+    },
+    "RadioButton": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg",
+      "select": "koehlerFg",
+      "focus": "koehlerHover",
+      "highlight": "koehlerBg"
+    },
+    "CheckBox": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg",
+      "select": "koehlerFg",
+      "focus": "koehlerHover"
+    },
+    "ToggleButton": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg"
+    },
+    "Label": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg"
+    },
+    "MainToolbar": {
+      "background": "koehlerBg",
+      "inactiveBackground": "koehlerBg",
+      "Dropdown": {
+        "background": "koehlerBg",
+        "hoverBackground": "koehlerHover",
+        "pressedBackground": "koehlerHover"
+      },
+      "Icon": {
+        "background": "koehlerBg",
+        "hoverBackground": "koehlerHover",
+        "pressedBackground": "koehlerHover"
+      }
+    },
+    "MainMenu": {
+      "background": "koehlerBg",
+      "selectionBackground": "koehlerHover",
+      "selectionForeground": "koehlerFg"
+    },
+    "StatusBar": {
+      "background": "koehlerBg",
+      "borderColor": "koehlerHover",
+      "hoverBackground": "koehlerHover"
+    },
+    "ActionButton": {
+      "hoverBackground": "koehlerHover",
+      "hoverBorderColor": "koehlerHover",
+      "pressedBackground": "koehlerHover",
+      "pressedBorderColor": "koehlerHover"
+    },
+    "Terminal": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg"
+    },
+    "Console": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg"
+    },
+    "DebuggerTabs": {
+      "background": "koehlerBg",
+      "underlinedTabBackground": "koehlerBg",
+      "selectedBackground": "koehlerHover"
+    },
+    "ProgressBar": {
+      "background": "koehlerBg",
+      "trackColor": "koehlerHover",
+      "progressColor": "koehlerFg",
+      "indeterminateStartColor": "koehlerHover",
+      "indeterminateEndColor": "koehlerFg"
+    },
+    "Slider": {
+      "background": "koehlerBg",
+      "trackColor": "koehlerHover",
+      "buttonColor": "koehlerFg"
+    },
+    "SpeedSearch": {
+      "background": "koehlerBg",
+      "foreground": "koehlerFg",
+      "borderColor": "koehlerHover"
+    },
+    "Counter": {
+      "background": "koehlerHover",
+      "foreground": "koehlerFg"
+    },
+    "PluginsList": {
+      "background": "koehlerBg"
+    },
+    "Plugins": {
+      "background": "koehlerBg",
+      "lightBackground": "koehlerBg",
+      "SectionHeader": {
+        "background": "koehlerBg"
+      },
+      "SearchField": {
+        "background": "koehlerBg"
+      },
+      "DisabledSearchField": {
+        "background": "koehlerBg"
+      },
+      "Tab": {
+        "background": "koehlerBg",
+        "hoverBackground": "koehlerHover",
+        "selectedBackground": "koehlerHover"
+      },
+      "Button": {
+        "installBackground": "koehlerBg",
+        "installForeground": "koehlerFg",
+        "updateBackground": "koehlerBg",
+        "updateForeground": "koehlerFg"
+      }
+    },
+    "SearchEverywhere": {
+      "SettingsTab": {
+        "background": "koehlerBg"
+      }
+    },
+    "WelcomeScreen": {
+      "SidePanel": {
+        "background": "koehlerBg"
+      }
     },
     "ToolWindow": {
-      "background": "#202020",
+      "background": "koehlerBg",
       "Header": {
-        "background": "#202020",
-        "inactiveBackground": "#202020"
+        "background": "koehlerBg",
+        "inactiveBackground": "koehlerBg"
       },
       "HeaderTab": {
-        "underlinedTabBackground": "#202020",
-        "hoverBackground": "#2A2A2C",
-        "hoverInactiveBackground": "#2A2A2C"
+        "underlinedTabBackground": "koehlerBg",
+        "hoverBackground": "koehlerHover",
+        "hoverInactiveBackground": "koehlerHover"
       }
     }
   }
