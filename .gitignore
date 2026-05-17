@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+.intellijPlatform/
+
+# IntelliJ / IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local
+*.log
+local.properties
+
+# Distribution artifacts (built by Gradle into build/distributions/)
+Koehler-Theme.zip

@@ -1,0 +1,17 @@
+<idea-plugin>
+  <id>com.koehler.theme</id>
+  <name>Koehler Theme</name>
+  <vendor email="" url="">Koehler</vendor>
+
+  <description><![CDATA[
+    Koehler dark UI theme with matching editor color scheme and dark scrollbars.
+    Inspired by the classic Vim <a href="https://github.com/rodnaph/vim-color-schemes/blob/master/colors/koehler.vim">koehler</a> color scheme by Ron Aaron.
+  ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="koehler" path="/themes/Koehler.theme.json"/>
+    <bundledColorScheme path="/themes/Koehler"/>
+  </extensions>
+</idea-plugin>

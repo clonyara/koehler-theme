@@ -1,0 +1,69 @@
+{
+  "name": "Koehler",
+  "dark": true,
+  "author": "",
+  "editorScheme": "/themes/Koehler.xml",
+  "ui": {
+    "ScrollBar": {
+      "background": "#202020",
+      "track": {
+        "background": "#202020",
+        "hoverBackground": "#202020"
+      },
+      "thumb": {
+        "background": "#4A4A4C",
+        "hoverBackground": "#5A5A5C"
+      },
+      "Mac": {
+        "thumb": {
+          "background": "#4A4A4C",
+          "hoverBackground": "#5A5A5C"
+        },
+        "Transparent": {
+          "thumb": {
+            "background": "#4A4A4C",
+            "hoverBackground": "#5A5A5C"
+          },
+          "track": {
+            "background": "#202020",
+            "hoverBackground": "#202020"
+          }
+        }
+      },
+      "Transparent": {
+        "thumb": {
+          "background": "#4A4A4C",
+          "hoverBackground": "#5A5A5C"
+        },
+        "track": {
+          "background": "#202020",
+          "hoverBackground": "#202020"
+        }
+      }
+    },
+    "Tree": {
+      "background": "#202020"
+    },
+    "Panel": {
+      "background": "#202020"
+    },
+    "OptionPane": {
+      "background": "#202020"
+    },
+    "PopupMenu": {
+      "background": "#202020"
+    },
+    "ToolWindow": {
+      "background": "#202020",
+      "Header": {
+        "background": "#202020",
+        "inactiveBackground": "#202020"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "#202020",
+        "hoverBackground": "#2A2A2C",
+        "hoverInactiveBackground": "#2A2A2C"
+      }
+    }
+  }
+}
