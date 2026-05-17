@@ -4,9 +4,35 @@
   <vendor email="" url="">Koehler</vendor>
 
   <description><![CDATA[
-    Koehler dark UI theme with matching editor color scheme and dark scrollbars.
-    Inspired by the classic Vim <a href="https://github.com/rodnaph/vim-color-schemes/blob/master/colors/koehler.vim">koehler</a> color scheme by Ron Aaron.
+    <p>A deep-black dark theme inspired by the classic Vim
+    <a href="https://github.com/rodnaph/vim-color-schemes/blob/master/colors/koehler.vim">koehler</a>
+    color scheme by Ron Aaron.</p>
+
+    <p><b>Highlights</b></p>
+    <ul>
+      <li>Pure-black editor background (#000000) with #101010 UI chrome &mdash; ideal on OLED displays and easy on the eyes in dim rooms.</li>
+      <li>Vim koehler hue mapping: yellow bold keywords, blue comments and annotations, pink-red strings, pink methods and fields, white identifiers and class names, orange punctuation.</li>
+      <li>Toned-down accents &mdash; saturation dialed back from Vim&#39;s vivid originals for sustained-use readability.</li>
+      <li>Consistent UI surfaces &mdash; settings dialogs, popups, menus, tool windows, terminal, and notifications all unified on the same palette. No stray Darcula-blue rows.</li>
+      <li>Dimmed editor chrome &mdash; folding lines, indent guides, whitespace dots, and scrollbars sit just above the background.</li>
+      <li>Restrained selection and highlight backgrounds &mdash; current line, identifier-under-caret, and search matches stay legible.</li>
+    </ul>
+
+    <p><b>Activate</b></p>
+    <ul>
+      <li>Settings &rarr; Appearance &amp; Behavior &rarr; Appearance &rarr; Theme: <b>Koehler</b></li>
+      <li>Settings &rarr; Editor &rarr; Color Scheme &rarr; Scheme: <b>Koehler</b></li>
+    </ul>
+
+    <p>No fonts, no icons, no keymap changes &mdash; just the theme and a matching editor scheme.</p>
   ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>1.0.0</h3>
+    <ul>
+      <li>Initial release: Koehler dark UI theme and matching editor color scheme.</li>
+    </ul>
+  ]]></change-notes>
 
   <depends>com.intellij.modules.platform</depends>
 
