@@ -23,50 +23,21 @@
     <option name="ANNOTATIONS_COLOR">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
-      </value>
-    </option>
-    <option name="ANNOTATIONS_COLOR_1">
-      <value>
-        <option name="BACKGROUND" value="e0e10" />
-      </value>
-    </option>
-    <option name="ANNOTATIONS_COLOR_2">
-      <value>
-        <option name="BACKGROUND" value="e0e10" />
-      </value>
-    </option>
-    <option name="ANNOTATIONS_COLOR_3">
-      <value>
-        <option name="BACKGROUND" value="e0e10" />
-      </value>
-    </option>
-    <option name="ANNOTATIONS_COLOR_4">
-      <value>
-        <option name="BACKGROUND" value="e0e10" />
-      </value>
-    </option>
-    <option name="ANNOTATIONS_COLOR_5">
-      <value>
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR">
       <value>
         <option name="FOREGROUND" value="6b6b6d" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="ANNOTATIONS_MERGED_COLOR">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="cc3333" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
@@ -248,7 +219,6 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="cc3333" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -357,13 +327,11 @@
     <option name="DOCKER.STRING">
       <value>
         <option name="FOREGROUND" value="d89393" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="DOCKER.TEXT">
       <value>
         <option name="FOREGROUND" value="d8d8d8" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
@@ -399,7 +367,6 @@
     <option name="INLAY_DEFAULT">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
@@ -410,13 +377,11 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -454,13 +419,11 @@
     <option name="SHELL_RAW_STRING">
       <value>
         <option name="FOREGROUND" value="d89393" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="SHELL_STRING">
       <value>
         <option name="FOREGROUND" value="d89393" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
@@ -507,7 +470,6 @@
     <option name="VCS_ANNOTATIONS">
       <value>
         <option name="FOREGROUND" value="555557" />
-        <option name="BACKGROUND" value="e0e10" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
