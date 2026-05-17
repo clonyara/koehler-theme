@@ -41,6 +41,43 @@
         }
       }
     },
+    "EditorScrollBar": {
+      "background": "#202020",
+      "track": {
+        "background": "#202020",
+        "hoverBackground": "#202020"
+      },
+      "thumb": {
+        "background": "#4A4A4C",
+        "hoverBackground": "#5A5A5C"
+      },
+      "Mac": {
+        "thumb": {
+          "background": "#4A4A4C",
+          "hoverBackground": "#5A5A5C"
+        },
+        "Transparent": {
+          "thumb": {
+            "background": "#4A4A4C",
+            "hoverBackground": "#5A5A5C"
+          },
+          "track": {
+            "background": "#202020",
+            "hoverBackground": "#202020"
+          }
+        }
+      },
+      "Transparent": {
+        "thumb": {
+          "background": "#4A4A4C",
+          "hoverBackground": "#5A5A5C"
+        },
+        "track": {
+          "background": "#202020",
+          "hoverBackground": "#202020"
+        }
+      }
+    },
     "Tree": {
       "background": "#202020"
     },
