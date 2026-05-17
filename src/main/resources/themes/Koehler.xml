@@ -1,23 +1,28 @@
-<scheme name="Koehler" version="142" parent_scheme="Default">
+<scheme name="Koehler" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2026.1.1.0.0</property>
     <property name="originalScheme">Koehler</property>
   </metaInfo>
   <colors>
-    <option name="CARET_COLOR" value="00CC00" />
+    <option name="CARET_COLOR" value="C0C0C0" />
     <option name="CARET_ROW_COLOR" value="1A1A1C" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="0E0E10" />
-    <option name="GUTTER_BACKGROUND" value="0E0E10" />
-    <option name="INDENT_GUIDE" value="2A2A2C" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="000000" />
+    <option name="GUTTER_BACKGROUND" value="101010" />
+    <option name="INDENT_GUIDE" value="1A1A1C" />
     <option name="LINE_NUMBERS_COLOR" value="B8A53A" />
     <option name="NOTIFICATION_BACKGROUND" value="1A1A1C" />
-    <option name="RIGHT_MARGIN_COLOR" value="222224" />
+    <option name="RIGHT_MARGIN_COLOR" value="1A1A1C" />
     <option name="SELECTION_BACKGROUND" value="232222" />
     <option name="SELECTION_FOREGROUND" value="5E5D5D" />
-    <option name="TEARLINE_COLOR" value="2A2A2C" />
-    <option name="VISUAL_INDENT_GUIDE" value="2A2A2C" />
-    <option name="WHITESPACES" value="2A2A2C" />
+    <option name="TEARLINE_COLOR" value="1A1A1C" />
+    <option name="VISUAL_INDENT_GUIDE" value="1A1A1C" />
+    <option name="WHITESPACES" value="141416" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="1A1A1C" />
+    <option name="MODIFIED_LINES_COLOR" value="2A3D7A" />
+    <option name="ADDED_LINES_COLOR" value="2A5A2A" />
+    <option name="DELETED_LINES_COLOR" value="7A2929" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="2A3D7A" />
   </colors>
   <attributes>
     <option name="ANNOTATIONS_COLOR">
@@ -67,7 +72,7 @@
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="4b4b93" />
+        <option name="FOREGROUND" value="888888" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -83,7 +88,12 @@
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="4b4b93" />
+        <option name="FOREGROUND" value="888888" />
+      </value>
+    </option>
+    <option name="CONSOLE_USER_INPUT">
+      <value>
+        <option name="FOREGROUND" value="C0C0C0" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -132,13 +142,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="7bc47b" />
+        <option name="FOREGROUND" value="d8d8d8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="7bc47b" />
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -165,7 +175,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="7bc47b" />
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -180,19 +190,18 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="c97ac9" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -202,18 +211,17 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="7bc47b" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -241,12 +249,12 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="c97ac9" />
+        <option name="FOREGROUND" value="6b83c7" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -261,7 +269,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
+        <option name="FOREGROUND" value="d8d8d8" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -281,14 +289,12 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="7ac5c5" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -303,7 +309,7 @@
     </option>
     <option name="DEFAULT_TYPE_PARAMETER_NAME">
       <value>
-        <option name="FOREGROUND" value="7bc47b" />
+        <option name="FOREGROUND" value="d8d8d8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -386,8 +392,7 @@
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d974f3" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
@@ -428,14 +433,12 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="cd59e7" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ce7ee3" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="c97ac9" />
       </value>
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
@@ -480,7 +483,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="887b88" />
+        <option name="BACKGROUND" value="2A2A2C" />
         <option name="ERROR_STRIPE_COLOR" value="f0adf0" />
       </value>
     </option>
