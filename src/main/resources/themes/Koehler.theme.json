@@ -57,6 +57,14 @@
       "hoverBackground": "koehlerHover",
       "hoverInactiveBackground": "koehlerHover"
     },
+    "FileColor": {
+      "Yellow": "koehlerBg",
+      "Green": "koehlerBg",
+      "Blue": "koehlerBg",
+      "Violet": "koehlerBg",
+      "Orange": "koehlerBg",
+      "Rose": "koehlerBg"
+    },
     "List": {
       "background": "koehlerBg",
       "selectionBackground": "koehlerHover",
@@ -145,7 +153,36 @@
       "ContrastBorderColor": "koehlerHover"
     },
     "OptionPane": {
+      "background": "koehlerBg",
+      "messageBackground": "koehlerBg",
+      "messageForeground": "koehlerFg",
+      "questionDialog": {
+        "titlePaneBackground": "koehlerBg",
+        "titlePaneForeground": "koehlerFg"
+      },
+      "errorDialog": {
+        "titlePaneBackground": "koehlerBg",
+        "titlePaneForeground": "koehlerFg"
+      },
+      "warningDialog": {
+        "titlePaneBackground": "koehlerBg",
+        "titlePaneForeground": "koehlerFg"
+      }
+    },
+    "Dialog": {
       "background": "koehlerBg"
+    },
+    "Component": {
+      "borderColor": "koehlerHover",
+      "focusedBorderColor": "koehlerHover",
+      "disabledBorderColor": "koehlerHover",
+      "errorFocusColor": "koehlerHover",
+      "inactiveErrorFocusColor": "koehlerHover",
+      "warningFocusColor": "koehlerHover",
+      "inactiveWarningFocusColor": "koehlerHover"
+    },
+    "WindowBorder": {
+      "color": "koehlerHover"
     },
     "PopupMenu": {
       "background": "koehlerBg",

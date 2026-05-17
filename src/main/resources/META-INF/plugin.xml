@@ -11,7 +11,7 @@
     <p><b>Highlights</b></p>
     <ul>
       <li>Pure-black editor background (#000000) with #101010 UI chrome &mdash; ideal on OLED displays and easy on the eyes in dim rooms.</li>
-      <li>Vim koehler hue mapping: yellow bold keywords, blue comments and annotations, pink-red strings, pink methods and fields, white identifiers and class names, orange punctuation.</li>
+      <li>Vim koehler hue mapping: yellow bold keywords, blue comments and annotations, pink-red strings and numbers, pink methods and fields, white identifiers and class names, orange punctuation, light-gray caret.</li>
       <li>Toned-down accents &mdash; saturation dialed back from Vim&#39;s vivid originals for sustained-use readability.</li>
       <li>Consistent UI surfaces &mdash; settings dialogs, popups, menus, tool windows, terminal, and notifications all unified on the same palette. No stray Darcula-blue rows.</li>
       <li>Dimmed editor chrome &mdash; folding lines, indent guides, whitespace dots, and scrollbars sit just above the background.</li>

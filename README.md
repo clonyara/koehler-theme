@@ -7,7 +7,7 @@ A deep-black dark theme for IntelliJ-based IDEs, inspired by the classic Vim [`k
 ## What it gives you
 
 - **Pure black editor background** (`#000000`) with a near-black `#101010` UI chrome — ideal on OLED displays and easy on the eyes in dim rooms.
-- **Vim koehler hue mapping**: yellow bold keywords, blue comments and annotations, pink-red strings and constants, pink methods and fields, white identifiers and class names, orange punctuation.
+- **Vim koehler hue mapping**: yellow bold keywords, blue comments and annotations, pink-red strings and numbers, pink methods and fields, white identifiers and class names, orange punctuation, light-gray caret.
 - **Toned-down accents** — saturation dialed back from Vim's vivid originals for sustained-use readability.
 - **Consistent UI surfaces** — settings dialogs, popups, menus, tool windows, terminal, and notifications all unified on the same palette. No stray Darcula-blue rows, no light-gray button strips.
 - **Dimmed editor chrome** — folding lines, indent guides, whitespace dots, and scrollbars sit just above the background, so they're available when you look for them but never compete with code.
