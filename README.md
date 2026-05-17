@@ -2,7 +2,7 @@
 
 A deep-black dark theme for IntelliJ-based IDEs, inspired by the classic Vim [`koehler`](https://github.com/rodnaph/vim-color-schemes/blob/master/colors/koehler.vim) color scheme by Ron Aaron.
 
-![Koehler Theme screenshot](img/snapshot.png)
+![Koehler Theme screenshot](img/screenshot.png)
 
 ## What it gives you
 
