@@ -30,7 +30,7 @@
   <change-notes><![CDATA[
     <h3>1.0.3</h3>
     <ul>
-      <li>Shell script highlighting: keywords (if/then/fi/set/readonly/exit) now yellow, built-ins (echo/grep/sed/awk) bold green, variables cyan.</li>
+      <li>Shell script: full BASH.* token coverage — flow-control keywords yellow, commands cyan, variables cyan, strings pink-red, matching Vim koehler hue roles.</li>
       <li>Fixed keyword color across all languages: was green, now correctly yellow to match Vim koehler.</li>
     </ul>
     <h3>1.0.2</h3>
