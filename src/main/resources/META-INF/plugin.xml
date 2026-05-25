@@ -28,6 +28,15 @@
   ]]></description>
 
   <change-notes><![CDATA[
+    <h3>1.0.3</h3>
+    <ul>
+      <li>Shell script highlighting: keywords (if/then/fi/set/readonly/exit) now yellow, built-ins (echo/grep/sed/awk) bold green, variables cyan.</li>
+      <li>Fixed keyword color across all languages: was green, now correctly yellow to match Vim koehler.</li>
+    </ul>
+    <h3>1.0.2</h3>
+    <ul>
+      <li>Refined editor scheme: types cyan, keywords green, annotations magenta, dim highlights, error stripes, visible whitespace.</li>
+    </ul>
     <h3>1.0.0</h3>
     <ul>
       <li>Initial release: Koehler dark UI theme and matching editor color scheme.</li>
