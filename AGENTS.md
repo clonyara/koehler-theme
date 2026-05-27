@@ -9,6 +9,10 @@ IntelliJ Platform plugin: a dark UI theme + matching editor color scheme. Inspir
 - `src/main/resources/themes/Koehler.xml` — editor color scheme (`<scheme>` XML, parent `Default`).
 - `build.gradle.kts`, `settings.gradle.kts`, `gradle.properties` — Gradle build. Uses `org.jetbrains.intellij.platform` 2.x. Target IDE: `IC` at `platformVersion` in `gradle.properties`. JDK 17.
 
+## Versioning
+
+Every version bump must be accompanied by a `<change-notes>` update in `plugin.xml`. Add a new `<h3>x.y.z</h3>` block at the top of the existing list describing what changed. Keep prior versions in the list. Keep notes short — one brief phrase per bullet, no implementation details (e.g. "Shell script colors fix", not "Added BASH.* token coverage with yellow keywords…").
+
 ## Build
 
 ```bash

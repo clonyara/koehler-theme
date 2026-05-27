@@ -323,7 +323,8 @@
     },
     "Terminal": {
       "background": "koehlerBg",
-      "foreground": "koehlerFg"
+      "foreground": "koehlerFg",
+      "caretColor": "koehlerFg"
     },
     "Console": {
       "background": "koehlerBg",

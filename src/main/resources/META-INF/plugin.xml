@@ -28,18 +28,23 @@
   ]]></description>
 
   <change-notes><![CDATA[
+    <h3>1.0.4</h3>
+    <ul>
+      <li>YAML and XML colors fix.</li>
+      <li>Terminal output color fix.</li>
+    </ul>
     <h3>1.0.3</h3>
     <ul>
-      <li>Shell script: full BASH.* token coverage — flow-control keywords yellow, commands cyan, variables cyan, strings pink-red, matching Vim koehler hue roles.</li>
-      <li>Fixed keyword color across all languages: was green, now correctly yellow to match Vim koehler.</li>
+      <li>Shell script colors fix.</li>
+      <li>Keyword color fix across all languages.</li>
     </ul>
     <h3>1.0.2</h3>
     <ul>
-      <li>Refined editor scheme: types cyan, keywords green, annotations magenta, dim highlights, error stripes, visible whitespace.</li>
+      <li>Editor scheme refinements.</li>
     </ul>
     <h3>1.0.0</h3>
     <ul>
-      <li>Initial release: Koehler dark UI theme and matching editor color scheme.</li>
+      <li>Initial release.</li>
     </ul>
   ]]></change-notes>
 
